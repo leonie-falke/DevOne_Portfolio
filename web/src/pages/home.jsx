@@ -1,9 +1,22 @@
+import { use, useRef } from "react";
 
 
 export default function HomePage() {
+
+  const hello2Rev = useRef(null);
+
+  const scrollToHello2 = () => {
+    hello2Rev.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <div className="">
-      
+    <div className='bg-[#232136] w-full'>
+      <div onClick={scrollToHello2} className="h-screen">
+        Helllllo
+      </div>
+      <div className="mt-auto" ref={hello2Rev}>
+        Helloo tooo.
+      </div>
     </div>
   );
 }
