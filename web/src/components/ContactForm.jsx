@@ -1,6 +1,6 @@
 
 
-export default function Footer() {
+export default function ContactForm() {
   return (
     <div className="">
       

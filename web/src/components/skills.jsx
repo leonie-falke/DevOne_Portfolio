@@ -1,6 +1,6 @@
 
 
-export default function Footer() {
+export default function Skills() {
   return (
     <div className="">
       

@@ -1,6 +1,6 @@
 
 
-export default function Footer() {
+export default function EducationCard() {
   return (
     <div className="">
       
