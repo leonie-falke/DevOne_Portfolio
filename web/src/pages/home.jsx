@@ -1,7 +1,6 @@
-import { useRef } from "react";
 import Header from '../components/Header';
 import Projects from "../components/ProjectCard";
-import Skills from "../components/SkillBadges";
+import Skills from "../components/skillBadges";
 import AboutCard from "../components/AboutCard";
 import Education from "../components/EducationCard";
 import AnimatedSection from "../modules/MotionAnimation";
