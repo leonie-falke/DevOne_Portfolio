@@ -17,6 +17,12 @@ function App() {
           <Route element = {<HomePage />} path='/' />
           <Route element = {<BlogPage />} path='/blog'/>
           <Route element = {<Imprint />} path='/imprint'/>
+          <Route element = {<HomePage />} smooth path="/#home">Home</Route>
+          <Route element = {<HomePage />}  smooth path="/#about">About me</Route>
+          <Route element = {<HomePage />} smooth path="/#education">Education</Route>
+          <Route element = {<HomePage />} smooth path="/#skills">Skills</Route>
+          <Route element = {<HomePage />} smooth path="/#projects">Projects</Route>
+          <Route element = {<HomePage />} smooth path="/#contact">Contact</Route>
         </Routes>
       <Footer />
       </div>
