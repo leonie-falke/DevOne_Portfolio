@@ -6,7 +6,7 @@ import Education from "../components/EducationCard";
 import AnimatedSection from "../modules/MotionAnimation";
 
 
-export default function HomePage() {
+export default function Home() {
 
   return (
     <div className='bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4] w-full scroll-smooth'>
