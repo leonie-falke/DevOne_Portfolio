@@ -25,9 +25,9 @@ export default function Header() {
   };
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4]">
+    <section id="home" className="min-h-screen flex flex-col justify-center items-center bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4]">
       <h1 className="text-5xl font-bold mb-4">
-        Hi, I'm <span className="text-[#b4637a] dark:text-[#eb6f92]">Leonie</span>
+        Hi, I'm <span className="text-[#b4637a] dark:text-[#eb6f92]">Leonie Falke</span>
       </h1>
       <h2 className="text-2xl text-[#56949f] dark:text-[#9ccfd8] font-medium">
         {texts[index].substring(0, subIndex)}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { LightMode, DarkMode } from '@mui/icons-material';
 
 export default function Navbar() {
@@ -11,15 +11,18 @@ export default function Navbar() {
     setIsDarkMode(document.documentElement.classList.contains("dark"));
   }
   return (
-    <div className="Navigation">
-      <div className='bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4]'>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+    <div className="sticky top-0 z-50 bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4] shadow-md shadow-[#9893a5] dark:shadow-[#6e6a86]">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        <HashLink smooth to="/#home">Home</HashLink>
+        <HashLink smooth to="/#about">About me</HashLink>
+        <HashLink smooth to="/#education">Education</HashLink>
+        <HashLink smooth to="/#skills">Skills</HashLink>
+        <HashLink smooth to="/#projects">Projects</HashLink>
+        <HashLink smooth to="/#contact">Contact</HashLink>
         <button onClick={toggleDarkMode}>
           {isDarkMode ? <DarkMode /> : <LightMode />}
         </button>
       </div>
-    </div>
+      </div>
   );
 }

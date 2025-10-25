@@ -11,7 +11,6 @@ const education = [
     year: "2017 - 2021",
     description: "Graduated with honors, specialized in STEM courses.",
   },
-  // weitere Bildungsstationen
 ];
 
 export default education;

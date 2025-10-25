@@ -1,3 +1,8 @@
+.markdown-body {
+    @apply
+    text-[#575279] 
+    dark:text-[#e0def4]
+}
 .markdown-body h1 {
     @apply
     text-lg
