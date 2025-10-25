@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DevOne_Portfolio/static/css/main.19760343.css",
+    "main.js": "/DevOne_Portfolio/static/js/main.1c74e3d9.js",
+    "index.html": "/DevOne_Portfolio/index.html",
+    "main.19760343.css.map": "/DevOne_Portfolio/static/css/main.19760343.css.map",
+    "main.1c74e3d9.js.map": "/DevOne_Portfolio/static/js/main.1c74e3d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19760343.css",
+    "static/js/main.1c74e3d9.js"
+  ]
+}
