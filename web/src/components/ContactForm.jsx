@@ -10,7 +10,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Hier könntest du Formspree, Netlify Forms oder EmailJS integrieren
     console.log(form);
     alert("Message sent!");
     setForm({ name: "", email: "", message: "" });
@@ -19,7 +18,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col justify-center items-center bg-[#191724] text-[#e0def4] px-8 py-16"
+      className="min-h-screen flex flex-col justify-center items-center bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4] px-8 py-16"
     >
       <h2 className="text-4xl font-bold text-[#eb6f92] mb-8 text-center">Contact Me</h2>
       <p className="mb-6 text-center max-w-xl">

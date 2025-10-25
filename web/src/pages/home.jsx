@@ -11,7 +11,7 @@ export default function HomePage() {
 
   return (
     <div className='bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4] w-full scroll-smooth'>
-      <AnimatedSection id="header"><Header /></AnimatedSection>
+      <Header />
       <AnimatedSection id="about"><AboutCard /></AnimatedSection>
       <AnimatedSection id="education"><Education /></AnimatedSection>
       <AnimatedSection id="skills"><Skills /></AnimatedSection>
