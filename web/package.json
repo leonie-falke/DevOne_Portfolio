@@ -1,7 +1,6 @@
 {
   "name": "web",
   "version": "0.1.0",
-  "homepage": "https://leonie-falke.github.io/DevOne_Portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
