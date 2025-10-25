@@ -1,0 +1,36 @@
+.markdown-body h1 {
+    @apply
+    text-lg
+    font-bold
+    mb-4
+}
+.markdown-body h2 {
+    @apply
+    text-lg
+    font-semibold
+    mb-5
+    mt-4
+}
+.markdown-body ul,
+.markdown-body ol {
+    @apply
+    list-inside
+    my-4
+    ml-6
+}
+
+.markdown-body ol {
+    @apply
+    list-decimal
+}
+
+.markdown-body ul {
+    @apply
+    list-disc
+}
+
+.markdown-body li {
+    @apply
+    mb-2
+    leading-relaxed
+}

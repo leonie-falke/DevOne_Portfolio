@@ -12,12 +12,13 @@ export default function MarkdownPage(props) {
             const text = await resource.text();
             setContent(text);
         })();
-    }, [props.file]);
+    }, [props.file, props.url]);
 
     return content ? (
-        <div lang="de" className="markdown-body">
-            <ReactMarkdown remarkPlugins={[remarkSlug]} />
+        <div lang="en" className="markdown-body">
+            <ReactMarkdown remarkPlugins={[remarkSlug]}>
                 {content}
+            </ReactMarkdown>
         </div>
     ) : <div />
 }

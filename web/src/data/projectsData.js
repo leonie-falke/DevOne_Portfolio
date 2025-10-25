@@ -11,12 +11,6 @@ const projects = [
     tech: ["Next.js", "TypeScript", "MongoDB"],
     github: "https://github.com/yourname/todo-app",
   },
-  {
-    title: "E-Commerce Platform",
-    image: "/images/ecommerce.png",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/yourname/ecommerce",
-  },
 ];
 
 export default projects;
