@@ -1,21 +1,18 @@
 import { useRef } from "react";
+import Projects from "../components/ProjectCard";
+import Skills from "../components/SkillBadges";
+import AboutCard from "../components/AboutCard";
+import Education from "../components/EducationCard";
+
 
 export default function HomePage() {
 
-  const hello2Rev = useRef(null);
-
-  const scrollToHello2 = () => {
-    hello2Rev.current.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
-    <div className='bg-white dark:bg-black w-full'>
-      <div onClick={scrollToHello2} className="h-screen">
-        Helllllo
-      </div>
-      <div className="mt-auto" ref={hello2Rev}>
-        Helloo tooo.
-      </div>
+    <div className='bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4] w-full scroll-smooth'>
+      <AboutCard />
+      <Skills />
+      <Education />
+      <Projects />
     </div>
   );
 }

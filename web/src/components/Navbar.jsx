@@ -12,7 +12,7 @@ export default function Navbar() {
   }
   return (
     <div className="Navigation">
-      <div>
+      <div className='bg-[#faf4ed] dark:bg-[#232136] text-[#575279] dark:text-[#e0def4]'>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>

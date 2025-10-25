@@ -1,9 +1,10 @@
+import Contact from "./ContactForm";
 
 
 export default function Footer() {
   return (
     <div className="">
-      
+      <Contact />
     </div>
   );
 }
