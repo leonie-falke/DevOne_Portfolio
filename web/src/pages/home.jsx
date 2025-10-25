@@ -1,5 +1,4 @@
-import { use, useRef } from "react";
-
+import { useRef } from "react";
 
 export default function HomePage() {
 
@@ -10,7 +9,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className='bg-[#232136] w-full'>
+    <div className='bg-white dark:bg-black w-full'>
       <div onClick={scrollToHello2} className="h-screen">
         Helllllo
       </div>
