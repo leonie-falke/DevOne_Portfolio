@@ -24,7 +24,7 @@ export default function Hero() {
         setForward(true);
         setIndex((prev) => (prev + 1) % texts.length);
       }
-    }, forward ? 100 : 100);
+    }, forward ? 120 : 100);
 
     return () => clearTimeout(timeout);
   }, [subIndex, index, forward, texts]);
