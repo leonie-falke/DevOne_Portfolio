@@ -1,15 +1,13 @@
 const education = [
   {
-    degree: "B.Sc. Computer Science",
-    school: "University of Example",
-    year: "2021 - 2024",
-    description: "Focused on software development, web technologies, and algorithms.",
+    degree: "Academic part of the entrence qualification for universities",
+    year: "Until 2024",
+    description: "(Fachhochschulreife, Germany)",
   },
   {
-    degree: "High School Diploma",
-    school: "Example High School",
-    year: "2017 - 2021",
-    description: "Graduated with honors, specialized in STEM courses.",
+    degree: "Software Developer (Apprenticeship, Germany)",
+    year: "2024 - Now",
+    description: "Part-time vocational school (dual education system), learning programming, software development...",
   },
 ];
 

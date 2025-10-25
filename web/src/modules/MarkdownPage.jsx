@@ -8,11 +8,11 @@ export default function MarkdownPage(props) {
 
     useEffect(() => {
         (async () => {
-            const resource = await fetch(props.url);
+            const resource = await fetch(props.file);
             const text = await resource.text();
             setContent(text);
         })();
-    }, [props.file, props.url]);
+    }, [props.file]);
 
     return content ? (
         <div lang="en" className="markdown-body">

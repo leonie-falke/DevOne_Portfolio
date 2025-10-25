@@ -1,15 +1,15 @@
 const projects = [
   {
     title: "Portfolio Website",
-    image: "/images/portfolio.png",
-    tech: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/yourname/portfolio",
+    image: "/assets/Webseite.jpeg",
+    tech: ["React", "Tailwind", "Framer Motion", "JavaScript"],
+    github: "https://github.com/leonie-falke/DevOne_Portfolio.git",
   },
   {
-    title: "Todo App",
-    image: "/images/todo.png",
-    tech: ["Next.js", "TypeScript", "MongoDB"],
-    github: "https://github.com/yourname/todo-app",
+    title: "Curseor AI-VSCode Extension",
+    image: "/assets/Curseor-ai.jpeg",
+    tech: ["vsc-extension-quickstart", "TypeScript", "Tailwind"],
+    github: "https://github.com/leonie-falke/curseor-ai.git",
   },
 ];
 

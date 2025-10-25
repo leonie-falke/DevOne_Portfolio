@@ -35,7 +35,7 @@ export default function BlogPage() {
           >
             ← Back to Blog
           </button>
-          <MarkdownPage url={selectedPost.url} />
+          <MarkdownPage file={selectedPost.url} />
         </div>
       )}
     </main>

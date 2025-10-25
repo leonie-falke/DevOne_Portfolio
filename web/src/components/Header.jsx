@@ -15,7 +15,7 @@ export default function Header() {
         setForward(true);
         setIndex((prev) => (prev + 1) % texts.length);
       }
-    }, forward ? 120 : 80);
+    }, forward ? 130 : 100);
     return () => clearTimeout(timeout);
   }, [subIndex, index, forward, texts]);
 

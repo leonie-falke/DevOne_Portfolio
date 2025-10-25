@@ -14,11 +14,11 @@ const blogPosts = [
     date: "2025-09-25",
   },
   {
-    title: "Deploying Next.js Apps",
-    excerpt: "Step-by-step guide to deploy your Next.js app...",
-    url: "/blog/deploying-nextjs-apps.md",
-    slug: "deploying-nextjs-apps",
-    date: "2025-09-20",
+    title: "Participation in CodePOCALYPSE Hackathon",
+    excerpt: "Curseor AI - Cursed code completion on the way to World domination...",
+    url: "/blog/curseor-ai-blog.md",
+    slug: "curseor-ai-blog",
+    date: "2025-10-25",
   },
 ];
 
