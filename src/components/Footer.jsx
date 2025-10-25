@@ -1,5 +1,5 @@
 import Contact from "./ContactForm";
-
+import { Link } from "react-router-dom"
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <Contact />
       <div className="flex flex-row w-[90vw]">
         <p className="text-sm text-center flex flex-col  p-6">Copyright © 2025 Leonie Falke</p>
-        <a href="/imprint" className=" text-sm text-center hover:underline flex flex-col p-6" >Imprint</a>
+        <Link to="/imprint" className=" text-sm text-center hover:underline flex flex-col p-6" >Imprint</Link>
 
         <a href="https://devpost.com/leonie-falke?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" rel="noopener noreferrer" className=" text-sm text-center hover:underline flex flex-col p-6 ml-auto" >DevPost</a>
         <a href="https://github.com/leonie-falke" target="_blank" rel="noopener noreferrer" className=" text-sm text-center hover:underline flex flex-col p-6" >Github</a>

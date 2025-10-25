@@ -4,6 +4,7 @@ import projects from "../data/projectsData";
 import blogPosts from "../data/blogPost";
 import MarkdownPage from "../modules/MarkdownPage";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -71,12 +72,12 @@ export default function Projects() {
               <h3 className="text-2xl font-bold text-[#b4637a] dark:text-[#eb6f92] mb-2">
                 Latest Blog Posts
               </h3>
-              <a
-                href="/blog"
+              <Link
+                to="/blog"
                 className="mt-4 text-[#575279] dark:text-[#e0def4] hover:underline font-medium"
               >
                 See All Posts →
-              </a>
+              </Link>
 
               {blogPosts.slice(0, 3).map((post, idx) => (
                 <motion.div

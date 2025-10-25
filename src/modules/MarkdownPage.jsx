@@ -8,7 +8,7 @@ export default function MarkdownPage(props) {
 
     useEffect(() => {
         (async () => {
-            const resource = await fetch(props.file);
+            const resource = await fetch(process.env.PUBLIC_URL+props.file);
             const text = await resource.text();
             setContent(text);
         })();
